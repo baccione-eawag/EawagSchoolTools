@@ -1,0 +1,13 @@
+Package: EawagSchoolTools
+Title: Miscellaneous Tools for Eawag Summer School in Environmental
+        Systems Analysis
+Description: Miscellaneous functions for use in exercises for the Eawag Summer School in Environmental Systems Analysis. 
+        Additional functions are in the packages "GASPbias" and "SABC".
+Version: 0.9
+Date: 2016-06-14
+Author: Peter Reichert <peter.reichert@eawag.ch>. Package initially compiled by Lukas M. Weber.
+Maintainer: Peter Reichert <peter.reichert@eawag.ch>
+Imports: deSolve, lpridge
+License: GPL-3
+NeedsCompilation: no
+Packaged: 2016-06-14 15:21:56 UTC; reichert
