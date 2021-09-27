@@ -45,7 +45,7 @@ Plot.res <- function(res,L,xlim=NA,ylim=NA,
     for ( i in 1:length(varnames) )
     {
       ind <- L[,1] == varnames[i]
-      points(L[ind,1],res[ind],pch=i)
+      points(L[ind,2],res[ind],pch=i)
     }
     if ( length(varnames) > 1 )
     {
